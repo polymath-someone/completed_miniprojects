@@ -1,0 +1,11 @@
+# Create a greeting for the program
+print("Welcome to the username generator!\n")
+
+# Ask for the name
+name = input("What is Your name?\n"))
+
+# Ask for the hobbies
+hobby =  input("What are you interested in?\n"))
+
+# Combine both of the answers
+print("Your username could be" + name + " " + hobby)
