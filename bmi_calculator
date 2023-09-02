@@ -1,0 +1,17 @@
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+
+bmi_calculator = weight / height ** 2
+bmi_rounded= round(bmi_calculator, 2)
+bmi = "{:.0f}".format(bmi_rounded)
+
+if int(bmi) < 18:
+    print(f"Your BMI is {bmi}, you are underweight.")
+elif int(bmi) <= 25:
+    print(f"Your BMI is {bmi}, you have a normal weight.")
+elif int(bmi) <= 30:
+    print(f"Your BMI is {bmi}, you are slightly overweight.")
+elif int(bmi) <= 35:
+    print(f"Your BMI is {bmi}, you are obese.")  
+else:
+    print(f"Your BMI is {bmi}, you are clinically obese.")
