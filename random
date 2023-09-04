@@ -1,0 +1,9 @@
+import random
+random_float = random.randint(0, 1)
+m_random_float = random_float * 2.25
+#print(random_float)
+
+if random_float == 1:
+    print("Heads")
+else:
+    print("Tails")
